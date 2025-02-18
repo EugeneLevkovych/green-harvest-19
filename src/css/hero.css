@@ -1,0 +1,9 @@
+.hero-section {
+  background-color: #576f35;
+}
+.hero-image {
+  height: 372px;
+  background-image: url(/img/hero/mobile-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
