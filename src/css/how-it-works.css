@@ -1,18 +1,52 @@
+.how-it-works-section {
+  background-color: #576f35;
+}
+.how-it-works-image-wrapper {
+  background-color: #7a3145;
+  padding: 40px 20px;
+}
+.how-it-works-image {
+  border-radius: 30px;
+  margin: 0 auto;
+}
+.how-it-works-content-wrapper {
+  padding: 80px 0;
+}
+.how-it-works-big-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+.how-it-works-big-text-span {
+  color: #d4bfc4;
+}
+.how-it-works-small-text {
+  margin-bottom: 40px;
+}
 .how-it-works-list {
   counter-reset: my-counter;
 }
+.how-it-works-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
 .how-it-works-list-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
   border-radius: 15px;
-  padding: 12px 27px 12px 24px;
-  width: 335px;
+  padding-left: 12px;
   height: 84px;
   background-color: #fbfbfb;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.42857;
-  color: #858585;
 }
 .how-it-works-list-item::before {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  align-items: center;
   counter-increment: my-counter;
   content: counter(my-counter);
   width: 52px;
@@ -24,8 +58,19 @@
   text-align: center;
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+}
+.how-it-works-span {
+  font-weight: 700;
+  color: #141414;
+}
+.how-it-works-counter-text {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #858585;
 }
