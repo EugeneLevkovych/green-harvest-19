@@ -1,0 +1,31 @@
+.how-it-works-list {
+  counter-reset: my-counter;
+}
+.how-it-works-list-item {
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  width: 335px;
+  height: 84px;
+  background-color: #fbfbfb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #858585;
+}
+.how-it-works-list-item::before {
+  counter-increment: my-counter;
+  content: counter(my-counter);
+  width: 52px;
+  height: 52px;
+  background-color: #7a3145;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #d4bfc4;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
