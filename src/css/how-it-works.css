@@ -1,17 +1,20 @@
 .how-it-works-section {
-  background-color: #576f35;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background: linear-gradient(
+    to bottom,
+    #7a3145 0% 44.76%,
+    #576f35 44.76% 100%
+  );
 }
 .how-it-works-image-wrapper {
-  background-color: #7a3145;
-  padding: 40px 20px;
+  padding-bottom: 40px;
 }
 .how-it-works-image {
   border-radius: 30px;
   margin: 0 auto;
 }
-.how-it-works-content-wrapper {
-  padding: 80px 0;
-}
+
 .how-it-works-big-text {
   font-weight: 600;
   font-size: 28px;
@@ -25,6 +28,9 @@
   color: #d4bfc4;
 }
 .how-it-works-small-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
   margin-bottom: 40px;
 }
 .how-it-works-list {
@@ -38,8 +44,7 @@
   gap: 20px;
   align-items: center;
   border-radius: 15px;
-  padding-left: 12px;
-  height: 84px;
+  padding: 12px 27px 12px 24px;
   background-color: #fbfbfb;
 }
 .how-it-works-list-item::before {
@@ -53,7 +58,7 @@
   height: 52px;
   background-color: #7a3145;
   border-radius: 50%;
-  border: 3px solid;
+  border: 5px solid;
   border-color: #d4bfc4;
   text-align: center;
   font-weight: 600;
@@ -70,7 +75,31 @@
 .how-it-works-counter-text {
   text-align: left;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.42;
   color: #858585;
+}
+/*------------------ Tablet---------------*/
+@media screen and (min-width: 768px) {
+  .how-it-works-container {
+    padding: 100px 164px;
+  }
+  .how-it-works-list-item {
+    gap: 24px;
+  }
+  .how-it-works-big-text {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .how-it-works-small-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 52px;
+  }
+}
+/* --------------------Desktop ------------------ */
+@media screen and (min-width: 1280px) {
+  .how-it-works-section {
+    background: linear-gradient(to right, #7a3145 0% 50%, #576f35 50% 100%);
+  }
 }
