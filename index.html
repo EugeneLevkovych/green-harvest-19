@@ -20,7 +20,7 @@
     />
 
     <script type="module" crossorigin src="/green-harvest-19/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/green-harvest-19/assets/index-d850xBmz.css">
+    <link rel="stylesheet" crossorigin href="/green-harvest-19/assets/index-BuabaZms.css">
   </head>
   <body>
     
@@ -42,19 +42,38 @@
   <div class="hero-bg-image-wrapper"></div>
 </section>
 
-      <section class="how-it-works-section">
-  <h2 class="visually-hidden">How it works</h2>
+      <section class="how-it-works-section" id="how-it-works">
   <div class="container how-it-works-container">
+    <h2 class="visually-hidden">How it works</h2>
     <div class="how-it-works-image-wrapper">
-      <img
-        src="/green-harvest-19/assets/mobile-hiw-C3UsaYxK.jpg"
-        alt="woman is cooking"
-        class="how-it-works-image"
-      />
+      <picture>
+        <source
+          srcset="/green-harvest-19/assets/desktop-hiw-C9KC7uel.jpg 1x, /green-harvest-19/assets/desktop-hiw@2x-DOTiCDi_.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/green-harvest-19/assets/tablet-hiw-CNPWOuVt.jpg 1x, /green-harvest-19/assets/tablet-hiw@2x-OBZidOfu.jpg 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/green-harvest-19/assets/mobile-hiw-C3UsaYxK.jpg 1x, /green-harvest-19/assets/mobile-hiw@2x-Cuh9XQUy.jpg 2x"
+          media="(max-width: 767px)"
+        />
+
+        <img
+          class="how-it-works-image"
+          src="/green-harvest-19/assets/tablet-hiw-CNPWOuVt.jpg"
+          alt="woman is cooking"
+        />
+      </picture>
     </div>
-    <div class="how-it-works-text-wrapper">
+
+    <div class="how-it-works-content-wrapper">
       <p class="how-it-works-big-text">
-        To order your vegetable basket, simply follow these easy steps
+        To order your
+        <span class="how-it-works-big-text-span">vegetable</span> basket, simply
+        follow these
+        <span class="how-it-works-big-text-span">easy steps</span>
       </p>
       <p class="how-it-works-small-text">
         Our baskets are assembled with care and delivered straight to your
@@ -63,14 +82,26 @@
       </p>
       <ol class="how-it-works-list">
         <li class="how-it-works-list-item">
-          Just choose the vegetable you want to order by clicking on the
-          checkboxes next to it.
+          <p class="how-it-works-counter-text">
+            Just choose
+            <span class="how-it-works-span">the vegetable</span> you want to
+            order by clicking on the checkboxes
+            <span class="how-it-works-span">next to it.</span>
+          </p>
         </li>
         <li class="how-it-works-list-item">
-          Click on the basket and fill out the form.
+          <p class="how-it-works-counter-text">
+            Click on <span class="how-it-works-span">the basket</span> and
+            fill<br />
+            out the form.
+          </p>
         </li>
         <li class="how-it-works-list-item">
-          Sit back and relax! Your fresh vegetables basket will be delivered.
+          <p class="how-it-works-counter-text">
+            Sit back and relax! Your
+            <span class="how-it-works-span">fresh vegetables</span> basket will
+            be delivered.
+          </p>
         </li>
       </ol>
     </div>
