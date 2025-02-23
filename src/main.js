@@ -1,1 +1,2 @@
-console.log('main js');
+import './js/reviews.js';
+import './js/your-order.js';

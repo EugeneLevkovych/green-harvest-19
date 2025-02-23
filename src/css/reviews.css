@@ -20,11 +20,14 @@
   line-height: 1.42;
   color: #141414;
 }
-.reviews-cards-wrapper {
+.reviews-cards-list {
+  padding-top: 40px;
+}
+.reviews-cards-list-item {
   border: 1px solid #d4bfc4;
   border-radius: 24px;
   padding: 20px;
-  height: 248px;
+  height: 228px;
 }
 .reviews-img {
   width: 56px;
@@ -49,4 +52,18 @@
   line-height: 1.42;
   text-align: center;
   color: #858585;
+}
+/* Tablet*/
+@media screen and (min-width: 768px) {
+  .reviews-cards-list-item {
+    width: 340px;
+    height: 248px;
+  }
+}
+/* Desktop*/
+@media screen and (min-width: 1280px) {
+  .reviews-cards-list-item {
+    width: 344px;
+    height: 248px;
+  }
 }
