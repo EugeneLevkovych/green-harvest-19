@@ -53,6 +53,10 @@
   text-align: center;
   color: #858585;
 }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: green;
+}
 /* Tablet*/
 @media screen and (min-width: 768px) {
   .reviews-cards-list-item {
