@@ -1,0 +1,31 @@
+.advertisement-section {
+  background-color: #fbfbfb;
+}
+.advertisement-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+.advertisement-span {
+  display: inline-block;
+  color: #fbfbfb;
+  background-color: #576f35;
+  border-radius: 12px;
+}
+/* Tablet*/
+@media screen and (min-width: 768px) {
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 1;
+  }
+}
+/* Desktop*/
+@media screen and (min-width: 1280px) {
+  .advertisement-text {
+    padding-right: 20px;
+    font-size: 76px;
+  }
+}
