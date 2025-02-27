@@ -1,11 +1,11 @@
 .footer-section {
   padding: 40px 0;
 }
-.footer-nav-flex-box {
-  margin-bottom: 40px;
-}
-.footer-logo-box {
-  margin-bottom: 40px;
+.footer-content-flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 80px;
 }
 .footer-logo-link {
   display: flex;
@@ -22,6 +22,11 @@
   font-size: 16px;
   line-height: 1.25;
 }
+.footer-flex-of-2-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 .footer-anchor-link {
   font-weight: 600;
   font-size: 32px;
@@ -37,7 +42,6 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.42;
-  margin-bottom: 80px;
 }
 .footer-address-phone {
   display: block;
@@ -57,10 +61,10 @@
   .footer-section {
     padding: 32px 0;
   }
-  .footer-nav-flex-box {
-    display: flex;
+  .footer-content-flex-box {
+    flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 64px;
+    margin-bottom: 100px;
   }
   .footer-logo-box {
     width: 265px;
@@ -78,6 +82,11 @@
     width: 187px;
     height: 17px;
   }
+  .footer-flex-of-2-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
   .footer-anchor-list {
     width: 228px;
     height: 144px;
@@ -88,9 +97,6 @@
   .footer-address-box {
     width: 215px;
     height: 84px;
-    margin-left: auto;
-    margin-right: 13px;
-    margin-bottom: 100px;
   }
   .footer-address-phone {
     margin-bottom: 24px;
@@ -109,19 +115,11 @@
   .footer-section {
     padding: 52px 0;
   }
-  .footer-container {
-    position: relative;
-  }
-  .footer-nav-flex-box {
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 250px;
+  .footer-content-flex-box {
     margin-bottom: 124px;
   }
-  .footer-address-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 100px;
+  .footer-flex-of-2-boxes {
+    flex-direction: row;
+    gap: 121px;
   }
 }
