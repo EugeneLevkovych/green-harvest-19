@@ -1,7 +1,9 @@
 .header-section {
-  padding-top: 20px;
+  position: absolute;
+  width: 100%;
 }
 .header-nav {
+  padding-top: 32px;
   display: flex;
   justify-content: space-between;
 }
@@ -13,12 +15,17 @@
 .header-nav-list {
   display: none;
 }
+.header-nav-item {
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  padding: 12px;
+  width: 118px;
+  height: 44px;
+  text-align: center;
+}
 .header-shop-now-button {
-  background-color: inherit;
-  color: inherit;
   display: none;
 }
-
 .header-burger-button {
   background-color: transparent;
 }
@@ -30,9 +37,6 @@
 }
 /* Tablet*/
 @media screen and (min-width: 768px) {
-  .header-section {
-    padding-top: 32px;
-  }
   .header-logo-link {
     gap: 9px;
   }
@@ -52,14 +56,19 @@
 /* Desktop*/
 @media screen and (min-width: 1280px) {
   .header-nav {
-    justify-content: flex-start;
+    align-items: center;
+  }
+  .inner-nav-flex-box {
+    display: flex;
     align-items: center;
     gap: 20px;
+  }
+  .header-burger-button {
+    display: none;
   }
   .header-nav-list {
     display: flex;
     gap: 8px;
-    margin-left: auto;
   }
 
   .header-shop-now-button {
@@ -69,14 +78,14 @@
     cursor: pointer;
     width: 157px;
     height: 52px;
+    border: none;
     border-radius: 30px;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-  }
-  .header-burger-button {
-    display: none;
+    color: inherit;
+    background-color: #7a3145;
   }
 }
