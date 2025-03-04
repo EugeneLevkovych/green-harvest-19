@@ -1,6 +1,7 @@
 .your-order-section {
   background-color: #576f35;
 }
+
 .your-order-heading {
   font-weight: 600;
   font-size: 48px;
@@ -10,9 +11,11 @@
   color: #fbfbfb;
   margin-bottom: 20px;
 }
+
 .your-order-heading-span {
   color: #d4bfc4;
 }
+
 .your-order-heading-text {
   font-weight: 500;
   font-size: 14px;
@@ -20,6 +23,7 @@
   color: #fbfbfb;
   margin-bottom: 40px;
 }
+
 .your-order-form-wrapper {
   border-radius: 30px;
   padding: 40px 20px;
@@ -36,12 +40,14 @@
   color: #141414;
   margin-bottom: 40px;
 }
+
 .your-order-form-text-span-1 {
   color: #7a3145;
 }
 .your-order-form-text-span-2 {
   color: #576f35;
 }
+
 .your-order-input {
   width: 100%;
   height: 48px;
@@ -50,10 +56,12 @@
   padding: 14px 16px;
   margin-bottom: 16px;
 }
+
 .your-order-input:focus {
   border-color: #7a3145;
   outline: transparent;
 }
+
 .your-order-input:not(:placeholder-shown):invalid {
   border-color: #e74a3b;
 }
@@ -61,12 +69,14 @@
 .your-order-input:not(:placeholder-shown):valid {
   border-color: #3cbc81;
 }
+
 .your-order-input::placeholder {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
   color: #141414;
 }
+
 .your-order-textarea {
   height: 92px;
   width: 100%;
@@ -75,6 +85,7 @@
   padding: 16px;
   margin-bottom: 20px;
 }
+
 .your-order-button {
   width: 100%;
   height: 52px;
@@ -88,15 +99,18 @@
   text-transform: uppercase;
   color: #fbfbfb;
 }
+
 .your-order-networks-wrapper {
   border-radius: 30px;
   background-color: #7a3145;
   padding: 20px 40px;
 }
+
 .your-order-img {
   border-radius: 15px;
   margin-bottom: 20px;
 }
+
 .your-order-networks-text {
   font-weight: 700;
   font-size: 14px;
@@ -104,6 +118,7 @@
   color: #d4bfc4;
   margin-bottom: 16px;
 }
+
 .your-order-networks-link {
   font-weight: 600;
   font-size: 18px;
@@ -118,21 +133,25 @@
     width: 640px;
     margin: 0 auto;
   }
+
   .your-order-form-wrapper {
     border-radius: 30px;
     padding: 72px 100px;
     margin-bottom: 32px;
   }
+
   .your-order-form-text {
     font-size: 32px;
     margin-bottom: 52px;
   }
+
   .your-order-input {
     font-size: 16px;
     line-height: 1.25;
     padding: 16px;
     height: 52px;
   }
+
   .your-order-textarea {
     font-size: 16px;
     line-height: 1.25;
@@ -140,13 +159,16 @@
     padding: 16px;
     margin-bottom: 24px;
   }
+
   .your-order-input::placeholder {
     font-size: 16px;
     line-height: 1.25;
   }
+
   .your-order-networks-wrapper {
     padding: 52px;
   }
+
   .your-order-img {
     width: 536px;
     height: 316px;
@@ -161,14 +183,17 @@
     display: flex;
     gap: 32px;
   }
+
   .your-order-form-wrapper {
     padding: 52px 48px;
     width: 524px;
     margin-bottom: 0;
   }
+
   .your-order-networks-wrapper {
     padding: 52px 48px;
   }
+
   .your-order-img {
     width: 428px;
     height: 352px;
