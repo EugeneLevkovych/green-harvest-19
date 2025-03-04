@@ -1,6 +1,7 @@
 .advertisement-section {
   background-color: #fbfbfb;
 }
+
 .advertisement-text {
   font-weight: 600;
   font-size: 48px;
@@ -9,6 +10,7 @@
   text-transform: uppercase;
   color: #141414;
 }
+
 .advertisement-span {
   display: inline-block;
   color: #fbfbfb;
