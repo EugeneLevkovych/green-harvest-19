@@ -2,19 +2,23 @@
   position: absolute;
   width: 100%;
 }
+
 .header-nav {
   padding-top: 32px;
   display: flex;
   justify-content: space-between;
 }
+
 .header-logo-link {
   display: flex;
   align-items: center;
   gap: 4px;
 }
+
 .header-nav-list {
   display: none;
 }
+
 .header-nav-item {
   border: 1px solid #fbfbfb;
   border-radius: 12px;
@@ -23,15 +27,19 @@
   height: 44px;
   text-align: center;
 }
+
 .header-shop-now-button {
   display: none;
 }
+
 .header-burger-button {
   background-color: transparent;
 }
+
 .header-logo-link {
   fill: #fbfbfb;
 }
+
 .header-icon-burger {
   stroke: #fbfbfb;
 }
@@ -40,14 +48,17 @@
   .header-logo-link {
     gap: 9px;
   }
+
   .header-logo {
     width: 20px;
     height: 20px;
   }
+
   .header-logo-text {
     width: 187px;
     height: 17px;
   }
+
   .header-icon-burger {
     width: 27px;
     height: 20px;
@@ -58,14 +69,17 @@
   .header-nav {
     align-items: center;
   }
+
   .inner-nav-flex-box {
     display: flex;
     align-items: center;
     gap: 20px;
   }
+
   .header-burger-button {
     display: none;
   }
+
   .header-nav-list {
     display: flex;
     gap: 8px;
