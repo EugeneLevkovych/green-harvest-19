@@ -1,32 +1,38 @@
 .footer-section {
   padding: 40px 0;
 }
+
 .footer-content-flex-box {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 80px;
 }
+
 .footer-logo-link {
   display: flex;
   align-items: center;
   gap: 4px;
   margin-bottom: 14px;
 }
+
 .footer-logo-icon,
 .footer-logo-name {
   fill: #fbfbfb;
 }
+
 .footer-logo-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
 }
+
 .footer-flex-of-2-boxes {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
+
 .footer-anchor-link {
   font-weight: 600;
   font-size: 32px;
@@ -34,6 +40,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
 }
+
 .footer-anchor-list-item:not(:last-child) {
   margin-bottom: 14px;
 }
@@ -43,16 +50,19 @@
   font-size: 14px;
   line-height: 1.42;
 }
+
 .footer-address-phone {
   display: block;
   margin-bottom: 14px;
 }
+
 .footer-privacy-box {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
   color: #d4bfc4;
 }
+
 .footer-privacy-link-wrapper {
   margin-bottom: 16px;
 }
@@ -61,43 +71,53 @@
   .footer-section {
     padding: 32px 0;
   }
+
   .footer-content-flex-box {
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 100px;
   }
+
   .footer-logo-box {
     width: 265px;
     height: 104px;
   }
+
   .footer-logo-link {
     gap: 9px;
     margin-bottom: 24px;
   }
+
   .footer-logo-icon {
     width: 20px;
     height: 20px;
   }
+
   .footer-logo-name {
     width: 187px;
     height: 17px;
   }
+
   .footer-flex-of-2-boxes {
     display: flex;
     flex-direction: column;
     gap: 64px;
   }
+
   .footer-anchor-list {
     width: 228px;
     height: 144px;
   }
+
   .footer-anchor-list-item:not(:last-child) {
     margin-bottom: 24px;
   }
+
   .footer-address-box {
     width: 215px;
     height: 84px;
   }
+
   .footer-address-phone {
     margin-bottom: 24px;
   }
@@ -106,6 +126,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .footer-privacy-link-wrapper {
     margin-bottom: 0;
   }
@@ -115,9 +136,11 @@
   .footer-section {
     padding: 52px 0;
   }
+
   .footer-content-flex-box {
     margin-bottom: 124px;
   }
+
   .footer-flex-of-2-boxes {
     flex-direction: row;
     gap: 121px;
