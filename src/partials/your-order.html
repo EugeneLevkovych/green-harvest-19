@@ -1,0 +1,91 @@
+<section class="your-order-section section-paddings" id="your-order">
+  <div class="container">
+    <h2 class="your-order-heading">
+      Fresh <span class="your-order-heading-span">Harvest</span> Box has got you
+      covered
+    </h2>
+    <p class="your-order-heading-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="your-order-boxes-wrapper">
+      <div class="your-order-form-wrapper">
+        <p class="your-order-form-text">
+          Ordering <span class="your-order-form-text-span-1">from us</span> is
+          quick and easy! Fill out
+          <span class="your-order-form-text-span-2">the form</span> below and we
+          will contact you !
+        </p>
+        <form class="your-order-form">
+          <input
+            class="your-order-input"
+            type="text"
+            name="full-name"
+            placeholder="Full Name"
+            pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s\-']{2,50}$"
+            required
+          />
+          <input
+            class="your-order-input"
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            class="your-order-input your-order-textarea"
+            name="feedback"
+            rows="5"
+            placeholder="Comment"
+          ></textarea>
+          <button class="your-order-button" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="your-order-networks-wrapper">
+        <picture>
+          <source
+            srcset="
+              /img/your-order/desktop-your-order.jpg    1x,
+              /img/your-order/desktop-your-order@2x.jpg 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              /img/your-order/tablet-your-order.jpg    1x,
+              /img/your-order/tablet-your-order@2x.jpg 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              /img/your-order/mobile-your-order.jpg    1x,
+              /img/your-order/mobile-your-order@2x.jpg 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            class="your-order-img"
+            src="/img/your-order/mobile-your-order.jpg"
+            alt="Woman is cooking"
+            width="295"
+            height="273"
+          />
+        </picture>
+        <p class="your-order-networks-text">
+          Follow us on our social networks:
+        </p>
+        <a class="your-order-networks-link" href="https://www.instagram.com/"
+          >instagram&nbsp; /
+        </a>
+        <a class="your-order-networks-link" href="https://www.facebook.com/">
+          &nbsp; facebook&nbsp; /
+        </a>
+        <a class="your-order-networks-link" href="https://www.youtube.com/"
+          >&nbsp; youtube
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
