@@ -28,6 +28,15 @@
   text-align: center;
 }
 
+.header-nav-item:focus,
+.header-nav-item:hover {
+  border-color: #7a3145;
+}
+
+.header-nav-item:active {
+  color: #7a3145;
+}
+
 .header-shop-now-button {
   display: none;
 }
